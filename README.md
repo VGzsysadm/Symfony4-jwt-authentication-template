@@ -5,8 +5,6 @@ Template in Symfony 4.2.1 with jwt authentification ready to use
 ### Requisites
 
 * PHP 7.1 ( will not work with php 7.2 or 7.3 )
-* Mysql
-* Composer
 
 ## Getting Started
 
