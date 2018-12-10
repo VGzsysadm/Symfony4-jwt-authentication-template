@@ -42,6 +42,20 @@ Create the database
 php bin/console doctrine:database:create
 php bin/console doctrine:schema:update --force
 ```
+
+Grant permissions in the directory to the web user:
+
+```
+chown -R www-data Symfony4.2-jwt-authentication-template
+```
+Allow .htacces inside the public directory
+```
+<Directory /var/www/Symfony4.2-jwt-authentication-template/public>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+        </Directory>
+```
 ## Built With
 
 * [Symfony 4](https://symfony.com/doc/current/index.html)
