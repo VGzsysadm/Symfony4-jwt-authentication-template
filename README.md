@@ -15,27 +15,9 @@ Clone the project
 ```
 git clone https://github.com/VGzsysadm/Symfony4.2-jwt-authentication-template.git
 ```
-### Installing
+### Configuration
 
-Install dependencies
 
-```
-cd Inventory-app
-composer install
-```
-### Launch test server
-
-Modify .env file with your database information.
-
-Create the database and tables:
-
-```
-php bin/console doctrine:database:create
-php bin/console make:migration
-php bin/console doctrine:migrations:migrate
-```
-
-Turn on the dev server:
 
 ```
 php -S 127.0.0.1:8000 -t public
