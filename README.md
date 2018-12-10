@@ -62,7 +62,7 @@ Allow .htacces inside the public directory
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"_name":"John","_username":"administrator","_email":"John@thedev.dev","_password":"johnpassword"}' \
-  192.168.1.212/api/register
+  ip.address.of.host/api/register
 ```
 response:
 ```
