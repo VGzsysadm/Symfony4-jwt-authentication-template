@@ -12,6 +12,9 @@ Clone the project
 
 ```
 git clone https://github.com/VGzsysadm/Symfony4.2-jwt-authentication-template.git
+cd Symfony4.2-jwt-authentication-template
+touch .env
+composer install
 ```
 ### Configuration
 
