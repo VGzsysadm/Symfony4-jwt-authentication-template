@@ -22,6 +22,15 @@ mkdir config/jwt
 openssl genrsa -out config/jwt/private.pem -aes256 4096
 openssl rsa -pubout -in config/jwt/private.pem -out config/jwt/public.pem
 ```
+Add the following data to the file .env or system env, depending if the project is prod mode or dev mode.
+
+```
+JWT_PRIVATE_KEY_PATH=config/jwt/private.pem
+JWT_PUBLIC_KEY_PATH=config/jwt/public.pem
+JWT_PASSPHRASE=yourpassphrase
+JWT_TOKENTTL=3600
+```
+
 ## Built With
 
 * [Symfony 4](https://symfony.com/doc/current/index.html)
