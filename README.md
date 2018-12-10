@@ -40,13 +40,6 @@ Turn on the dev server:
 ```
 php -S 127.0.0.1:8000 -t public
 ```
-
-First of all, fill the script configure.php with your database params & execute the script at [https:\\127.0.0.1:8000\configure.php](https://github.com/VGzsysadm/Inventory-app/blob/master/public/configure.php)
-
-An admin user will be created with the user: admin and the password: admin.
-
-Please remove script after the execution.
-
 ## Built With
 
 * [Symfony 4](https://symfony.com/doc/current/index.html)
@@ -54,17 +47,15 @@ Please remove script after the execution.
 ## Bundles
 
 * [symfony/orm-pack](https://github.com/symfony/orm-pack)
+* [lexik/jwt-authentication-bundle](https://github.com/lexik/LexikJWTAuthenticationBundle)
+* [lcobucci/jwt](https://github.com/lcobucci/jwt)
+* [jms/serializer-bundle](https://github.com/schmittjoh/JMSSerializerBundle)
+* [friendsofsymfony/rest-bundle](https://github.com/FriendsOfSymfony/FOSRestBundle)
+* [sensio/framework-extra-bundle](https://github.com/sensiolabs/SensioFrameworkExtraBundle)
+* [nelmio/api-doc-bundle](https://github.com/nelmio/NelmioApiDocBundle)
+* [twig](https://github.com/twigphp/Twig)
+* [Symfony Assets](https://github.com/symfony/asset)
+* [Symfony validator](https://github.com/symfony/validator)
 
-## Third party apps
-
-* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-
-## Authors
-
-* **VGzsysadm** - *https://sysadm.es* - [@VGzsysadm](https://github.com/VGzsysadm)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/VGzsysadm/Inventory-app/blob/master/LICENSE.md) file for details
 
 
