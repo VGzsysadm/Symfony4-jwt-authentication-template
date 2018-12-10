@@ -105,6 +105,24 @@ response:
 ```
 Logged in as administrator
 ```
+response from curl:
+```
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=http://192.168.1.212/api/v1/" />
+
+        <title>Redirecting to http://192.168.1.212/api/v1/</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://192.168.1.212/api/v1/">http://192.168.1.212/api/v1/</a>.
+    </body>
+</html>
+```
+invalid response will be:
+```
+{"code":401,"message":"Invalid JWT Token"}
+```
 ## Built With
 
 * [Symfony 4](https://symfony.com/doc/current/index.html)
