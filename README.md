@@ -17,10 +17,12 @@ git clone https://github.com/VGzsysadm/Symfony4.2-jwt-authentication-template.gi
 ```
 ### Configuration
 
-
+Inside the project directory create the jwt folder and certs: ( pass phrase will be required )
 
 ```
-php -S 127.0.0.1:8000 -t public
+mkdir config/jwt
+openssl genrsa -out config/jwt/private.pem -aes256 4096
+openssl rsa -pubout -in config/jwt/private.pem -out config/jwt/public.pem
 ```
 ## Built With
 
