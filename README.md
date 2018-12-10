@@ -8,7 +8,7 @@ Template in Symfony 4.2.1 with jwt authentification ready to use
 
 ## Getting Started
 
-Clone the project
+Clone the project, and install with composer, fill the .env file with a default configuration.
 
 ```
 git clone https://github.com/VGzsysadm/Symfony4.2-jwt-authentication-template.git
