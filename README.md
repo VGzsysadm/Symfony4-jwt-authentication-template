@@ -30,7 +30,12 @@ JWT_PUBLIC_KEY_PATH=config/jwt/public.pem
 JWT_PASSPHRASE=yourpassphrase
 JWT_TOKENTTL=3600
 ```
+Create the database
 
+```
+php bin/console doctrine:database:create
+php bin/console doctrine:schema:update --force
+```
 ## Built With
 
 * [Symfony 4](https://symfony.com/doc/current/index.html)
