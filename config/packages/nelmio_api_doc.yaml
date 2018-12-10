@@ -2,7 +2,7 @@ nelmio_api_doc:
     documentation:
         info:
             title: Api
-            description: Este es el RESTful API de My Kanban
+            description: Api
             version: 1.0.0
     routes: # to filter documented routes
         path_patterns:
